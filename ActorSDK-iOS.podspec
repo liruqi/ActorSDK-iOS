@@ -10,10 +10,6 @@ Pod::Spec.new do |s|
   s.platform     		= :ios, "8.0"
   s.requires_arc 		= true
 
-  s.prepare_command = <<-CMD
-      Scripts/download.sh
-  CMD
-
   # Core
   s.dependency 'RegexKitLite'
   s.dependency 'CocoaAsyncSocket'

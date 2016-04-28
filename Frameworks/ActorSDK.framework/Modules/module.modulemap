@@ -1,0 +1,10 @@
+framework module ActorSDK {
+  umbrella header "ActorSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module ActorSDK.Swift {
+    header "ActorSDK-Swift.h"
+}
