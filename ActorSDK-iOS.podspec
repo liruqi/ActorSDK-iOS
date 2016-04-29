@@ -21,18 +21,20 @@ Pod::Spec.new do |s|
   s.dependency 'J2ObjC-Framework'
 
   # UI
+  s.dependency 'TTTAttributedLabel'
   s.dependency 'VBFPopFlatButton'
-  s.dependency 'MBProgressHUD'
-  s.dependency 'PSTAlertController'
-  s.dependency 'SZTextView'
-  s.dependency 'RSKImageCropper'
   s.dependency 'JDStatusBarNotification'
   s.dependency 'YYImage', '0.9.3'
   s.dependency 'YYCategories'
   s.dependency 'DZNWebViewController'
+  s.dependency 'DZNPhotoPickerController'
+  s.dependency 'SZTextView'
+  s.dependency 'RSKImageCropper'
 
-  s.dependency 'TTTAttributedLabel'
+  s.dependency 'RMUniversalAlert'
   s.dependency 'M13ProgressSuite'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'libjingle_peerconnection'
 
   s.preserve_paths = 'Frameworks'
   s.vendored_framework = 'Frameworks/ActorSDK.framework'
